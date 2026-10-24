@@ -1,1 +1,37 @@
-# tttn-Tran-Quoc-Huy
+# KẾ HOẠCH VÀ NHẬT KÝ THỰC TẬP
+
+## 1. Kế hoạch thực tập
+
+| Thời gian | Nội dung thực tập (Kế hoạch) | Kết quả thực hiện (dự kiến) | Ghi chú |
+| --- | --- | --- | --- |
+| Tuần 1 (05/10 đến 11/10) | Tham quan công ty, nghe người quản lý giới thiệu về các phòng ban đang làm trong công ty. Làm quen với mọi người trong ban IT, tìm hiểu tổng quan về project quản lý kho mà công ty đang muốn phát triển. | Hiểu được quy trình làm việc của phòng ban IT. Hiểu sơ bộ về các chức năng cần thiết mà công ty muốn làm. |  |
+| Tuần 2 (12/10 đến 18/10) | Đọc hiểu rõ các tài liệu về quy trình nhập, xuất kho mà công ty đang làm. Được tham gia vào quy trình xuất nhập hàng hóa vào kho trên thực tế để nắm rõ luồng hoạt động hơn. | Hiểu được các bước chính trong quy trình nhập và xuất kho. Ghi nhận được những thông tin thực tế cần đưa vào hệ thống. |  |
+| Tuần 3 (19/10 đến 25/10) | Nghiên cứu cấu trúc mã nguồn, cơ sở dữ liệu, API và các module chính. Kiểm tra cách giao diện kết nối với Backend khi dùng ReactJS. Phân chia các phần việc cần thực hiện trong project. | Hiểu được cách tổ chức mã nguồn và luồng xử lý dữ liệu. Xác định được vị trí của các chức năng chính trong hệ thống. Có kế hoạch cụ thể cho phần Backend và giao diện. |  |
+| Tuần 4 (26/10 đến 01/11) | Phân tích dữ liệu liên quan đến các dòng sản phẩm, nhà cung cấp, khách hàng và nhân viên. Tìm hiểu quyền hạn chức năng của từng vai trò sẽ tham gia vào hệ thống. Xác định các yêu cầu cần xử lý ở phía Backend. | Xác định được các nhóm dữ liệu và mối liên hệ giữa chúng. Hiểu được cách phân quyền trong hệ thống. Hình thành được hướng xây dựng API và xử lý nghiệp vụ. |  |
+| Tuần 5 (02/11 đến 08/11) | Tham gia xây dựng Backend cho chức năng xác thực và phân quyền. Phát triển các API cơ bản phục vụ quản lý dữ liệu. Kiểm tra API và cập nhật mã nguồn lên GitHub sau khi đã xong chức năng đã đặt ra. | Hoàn thiện được phần xử lý cho chức năng đăng ký, đăng nhập và quyền truy cập cơ bản. Các API nền tảng có thể tiếp nhận và trả về dữ liệu. |  |
+| Tuần 6 (09/11 đến 15/11) | Xây dựng Backend cho các chức năng liên quan tới sản phẩm và phiếu nhập kho trong công ty. Xử lý dữ liệu hàng hóa được tiếp nhận vào kho. Đối chiếu quá trình vận chuyển, nhập hàng thực tế với dữ liệu trên hệ thống. | Hoàn thiện được các API liên quan đến sản phẩm và nhập kho. Hệ thống có thể lưu thông tin hàng nhập và cập nhật số lượng tồn. Hiểu rõ hơn mối liên hệ giữa quá trình vận chuyển và nghiệp vụ nhập kho. |  |
+| Tuần 7 (16/11 đến 22/11) | Xây dựng Backend cho các chức năng liên quan tới đơn bán hàng, điều chuyển hàng và báo cáo các loại hàng hư hỏng. Bổ sung các điều kiện kiểm tra số lượng và trạng thái giao dịch. Kiểm tra việc cập nhật tồn kho sau mỗi nghiệp vụ. | Các nghiệp vụ của xuất hàng được xử lý theo đúng yêu cầu và quy trình mong muốn. Các trường hợp dữ liệu không hợp lệ được phát hiện và xử lý. |  |
+| Tuần 8 (23/11 đến 29/11) | Xây dựng các màn hình giao diện dành cho nhân viên bán hàng và thủ kho trong công ty. Tạo biểu mẫu nhập liệu, danh sách sản phẩm và các thao tác liên quan. Kết nối giao diện với những API đã hoàn thành ở các tuần trước. | Hoàn thiện được các màn hình chính cho nhân viên bán hàng và thủ kho. Người dùng có thể thực hiện các thao tác nhập hàng, bán hàng và điều chuyển. |  |
+| Tuần 9 (30/11 đến 06/12) | Xây dựng tiếp các màn hình giao diện dành cho kế toán và quản lý. Xây dựng phần hiển thị báo cáo, tồn kho và lịch sử giao dịch. Đồng thời kiểm tra nội dung hiển thị theo quyền của từng vai trò. | Hoàn thiện các giao diện phục vụ kế toán và quản lý. Người dùng có thể theo dõi thông tin phù hợp với quyền hạn. Các báo cáo và dữ liệu lịch sử được hiển thị rõ ràng. |  |
+| Tuần 10 (07/12 đến 13/12) | Hoàn tất việc kết nối giao diện với Backend và chuẩn bị chuyển chức năng đã phát triển cho Tester. | Các chức năng giao diện và Backend hoạt động liên kết với nhau. Dữ liệu được kiểm tra trước khi lưu. Trạng thái và số lượng hàng được cập nhật đúng sau các thao tác phát sinh. |  |
+| Tuần 11 (14/12 đến 20/12) | Phân tích nguyên nhân các lỗi do Tester phản hồi. Chỉnh sửa và cập nhật lại các chức năng bị lỗi và bàn giao phiên bản mới để Tester kiểm tra lại. | Khắc phục được các lỗi đã được ghi nhận. Các phiên bản cập nhật được gửi lại cho Tester để thực hiện kiểm tra lại theo từng chức năng. |  |
+| Tuần 12 (21/12 đến 27/12) | Tiếp tục tiếp nhận kết quả kiểm tra từ Tester và xử lý các lỗi còn lại. Rà soát sự thống nhất giữa các màn hình, API và dữ liệu sau khi sửa lỗi. Bàn giao phiên bản hoàn thiện để thực hiện kiểm tra lần cuối. | Hoàn thành việc xử lý các lỗi quan trọng được phản hồi. Phiên bản hệ thống được hoàn thiện hơn. |  |
+| Các ngày cuối (28/12 đến 31/12) | Tổng hợp kết quả phát triển và phản hồi từ Tester. Cập nhật lại mã nguồn hoàn chỉnh lên GitHub, hoàn thiện tài liệu và báo cáo thực tập. | Hoàn tất phần việc được giao, lưu trữ đầy đủ mã nguồn và tổng hợp được quá trình phát triển, bàn giao và sửa lỗi của project. |  |
+
+## 2. Nhật ký thực tập
+
+| Thời gian | Nội dung thực tập (Kế hoạch) | Kết quả thực hiện | Ghi chú |
+| --- | --- | --- | --- |
+| Tuần 1 (05/10 đến 11/10) | Làm quen với môi trường làm việc và tìm hiểu hoạt động của các phòng ban trong Công ty TNHH Sản xuất và Thương mại Dịch vụ Hiệp Phát. Đọc các tài liệu liên quan đến quy trình nhập, xuất kho của công ty và được đưa đi tham quan quanh công ty để hiểu rõ công việc của từng phòng ban. Ngoài ra còn tham gia các buổi trao đổi để thống nhất những chức năng cần làm cho hệ thống và phác thảo một số giao diện cơ bản bằng Figma. | Nắm được quy trình nghiệp vụ chính và trách nhiệm của các bộ phận liên quan. Ghi nhận được các yêu cầu ban đầu của hệ thống thông qua quá trình trao đổi. Hoàn thành một số bản phác thảo giao diện cơ bản và có định hướng ban đầu cho các chức năng sẽ phát triển trong những tuần tiếp theo. |  |
+| Tuần 2 (12/10 đến 18/10) | Được quan sát và tham gia tìm hiểu quy trình nhập, xuất hàng hóa thực tế tại kho để đối chiếu với cách hệ thống xử lý dữ liệu. Tiếp tục nghiên cứu chi tiết quy trình nhập, xuất và cập nhật hàng hóa trong kho. Tìm hiểu cấu trúc mã nguồn, cơ sở dữ liệu, Backend và các API hiện có của project. Thiết lập môi trường phát triển, chạy thử hệ thống và cập nhật lại bản phác thảo giao diện sau khi trao đổi với người hướng dẫn. | Hiểu rõ hơn mối liên hệ giữa quy trình thực tế và cách hệ thống xử lý dữ liệu. Có thể chạy project trên môi trường phát triển và xác định được vị trí các module chính trong mã nguồn. Hoàn thiện bước đầu danh sách chức năng, giao diện dự kiến và lưu trữ mã nguồn project trên GitHub. |  |
+| Tuần 3 (19/10 đến 25/10) |  |  |  |
+| Tuần 4 (26/10 đến 01/11) |  |  |  |
+| Tuần 5 (02/11 đến 08/11) |  |  |  |
+| Tuần 6 (09/11 đến 15/11) |  |  |  |
+| Tuần 7 (16/11 đến 22/11) |  |  |  |
+| Tuần 8 (23/11 đến 29/11) |  |  |  |
+| Tuần 9 (30/11 đến 06/12) |  |  |  |
+| Tuần 10 (07/12 đến 13/12) |  |  |  |
+| Tuần 11 (14/12 đến 20/12) |  |  |  |
+| Tuần 12 (21/12 đến 27/12) |  |  |  |
+| Các ngày cuối (28/12 đến 31/12) |  |  |  |
